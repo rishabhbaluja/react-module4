@@ -20,6 +20,7 @@ import Form from "./components/form-demo";
 import FormDemo2 from "./components/form-demo02";
 import RefDemo1 from "./components/refDemo";
 import CustomerInfo from "./components/customer-info";
+import Contact from "./components/contact";
 
 class App extends Component {
     render() {
@@ -83,6 +84,11 @@ class App extends Component {
                                         addDeleteState
                                     </Link>
                                 </li>
+                                <li className="nav-item active">
+                                    <Link className="nav-link" to="/contacts">
+                                        View Contacts
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -99,6 +105,7 @@ class App extends Component {
                                 path="/add-delete-state"
                                 component={CustomerInfo}
                             />
+                            <Route exact path="/contacts" component={Contact} />
                         </Switch>
                     </div>
                 </BrowserRouter>

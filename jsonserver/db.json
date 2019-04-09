@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "contactName": "Rishabh",
+      "contactNumber": 9999999999
+    },
+    {
+      "id": 2,
+      "contactName": "Jitesh",
+      "contactNumber": 8888888888
+    },
+    {
+      "id": 3,
+      "contactName": "Tushar",
+      "contactNumber": 6969696969
+    },
+    {
+      "id": 4,
+      "contactName": "Ankit",
+      "contactNumber": 7777777777
+    }
+  ]
+}
